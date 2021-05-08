@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EchoScienceAR</title>
+        <style> 
+         body {
+  font-family: Arial, sans-serif;
+  background: rgb(0, 45, 100) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: white;
+  margin: 80px 0;
+}
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid rgb(0, 45, 100);
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: rgb(0, 45, 100);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: rgb(0, 45, 100);
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+            
+        </style>
+    </head>
+    <body>
+        <h1>About Human Lung</h1>
+        <div class="box">
+            <a class="button" href="#popup1">What is Human Lung</a>
+        </div>
+        
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>What is Lung</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    The lungs are a pair of spongy, air-filled organs located on either side of the chest (thorax). The trachea (windpipe) conducts inhaled air into the lungs through its tubular branches, called bronchi. The bronchi then divide into smaller and smaller branches (bronchioles), finally becoming microscopic.
+                </div>
+            </div>
+           
+        </div>
+        <br>
+        <div class="box">
+            <a class="button" href="#popup2">Anatomy</a>
+        </div>
+      
+        <div id="popup2" class="overlay">
+            <div class="popup">
+                <h2>Anatomy</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    This spongy, pinkish organ looks like two upside-down cones in your chest. The right lung is made up of three lobes. The left lung has only two lobes to make room for your heart.
+
+                    Bronchial tree
+                    The lungs begin at the bottom of your trachea (windpipe). The trachea is a tube that carries the air in and out of your lungs. Each lung has a tube called a bronchus that connects to the trachea. The trachea and bronchi airways form an upside-down “Y” in your chest. This “Y” is often called the bronchial tree.
+                    
+                    The bronchi branch off into smaller bronchi and even smaller tubes called bronchioles. Like the branches of a tree, these tiny tubes stretch out into every part of your lungs. Some of them are so tiny that they have the thickness of a hair. You have almost 30,000 bronchioles in each lung.
+                    
+                    Each bronchiole tube ends with a cluster of small air sacs called alveoli (individually referred to as alveolus). They look like tiny grape bunches or very tiny balloons. There are about 600 million alveoli in your lungs. The small bubble shapes of the alveoli give your lungs a surprising amount of surface area — equivalent to the size of a tennis court. This means there’s plenty of room for vital oxygen to pass into your body.
+                    
+                    SUMMARY
+                    Each lung is divided into lobes. The bronchial tree running through your lungs is made up of the windpipe, bronchi, bronchioles, and alveoli.
+                    The respiratory system
+                    The lungs are the main part of the respiratory system. This system is divided into the upper respiratory tract and the lower respiratory tract.
+                    
+                    The upper respiratory tract includes the:
+                    
+                    Mouth and nose. Air enters and leaves the lungs through the mouth and nostrils of the nose.
+                    Nasal cavity. Air passes from the nose into the nasal cavity, and then the lungs.
+                    Throat (pharynx). Air from the mouth is sent to the lungs via the throat.
+                    Voice box (larynx). This part of the throat helps air to pass into the lungs and keeps out food and drink.
+                    The lower respiratory tract is made up of the:
+                    
+                    lungs
+                    trachea (windpipe)
+                    bronchi
+                    bronchioles
+                    alveoli
+                    Other parts of the respiratory system help your lungs to expand and contract as you breathe. These include the ribs around the lungs and the dome-shaped diaphragm muscle below them. 
+                </div>
+            </div>
+           
+        </div>
+        <br>
+        <div class="box">
+            <a class="button" href="#popup3">Lung Conditions</a>
+        </div>
+        
+        <div id="popup3" class="overlay">
+            <div class="popup">
+                <h2>Lung Condition</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    Chronic obstructive pulmonary disease (COPD): Damage to the lungs results in difficulty blowing air out, causing shortness of breath. Smoking is by far the most common cause of COPD.
+                    Emphysema: A form of COPD usually caused by smoking. The fragile walls between the lungs' air sacs (alveoli) are damaged, trapping air in the lungs and making breathing difficult.
+                    Chronic bronchitis: Repeated, frequent episodes of productive cough, usually caused by smoking. Breathing also becomes difficult in this form of COPD.
+                    Pneumonia: Infection in one or both lungs. Bacteria, especially Streptococcus pneumoniae, are the most common cause.
+                    Asthma: The lungs' airways (bronchi) become inflamed and can spasm, causing shortness of breath and wheezing. Allergies, viral infections, or air pollution often trigger asthma symptoms.
+                </div>
+            </div>
+           
+        </div>
+        <br>
+        <div class="box">
+            <a class="button" href="#popup4">Lung Model</a>
+        </div>
+        <div id="popup4" class="overlay">
+            <div class="popup">
+                <h2>Lung Model</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <iframe src="https://go.echoar.xyz/H5D7"
+                    allow="camera *">
+            </iframe>
+                </div>
+            </div>
+           <br>
+        </div>
+        <br>
+        <div class="box">
+            <a class="button" href="#popup5">Experience in Real Life</a>
+        </div>
+        <div id="popup5" class="overlay">
+            <div class="popup">
+                <h2>Scan QR code</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <img src="query-1.png">
+                </div>
+            </div>
+           
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EchoScienceAR</title>
+        <style> 
+         body {
+  font-family: Arial, sans-serif;
+  background: rgb(0, 45, 100) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: white;
+  margin: 80px 0;
+}
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid rgb(0, 45, 100);
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: rgb(0, 45, 100);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: rgb(0, 45, 100);
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+            
+        </style>
+    </head>
+    <body>
+        <h1>About Human Heart</h1>
+        <div class="box">
+            <a class="button" href="#popup1">What is Human heart</a>
+        </div>
+        
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>What is heart</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    The human heart is an organ that pumps blood throughout the body via the circulatory system, supplying oxygen and nutrients to the tissues and removing carbon dioxide and other wastes.
+                </div>
+            </div>
+           
+        </div>
+        <br>
+        <div class="box">
+            <a class="button" href="#popup2">Anatomy</a>
+        </div>
+      
+        <div id="popup2" class="overlay">
+            <div class="popup">
+                <h2>Anatomy</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    The human heart has four chambers: two upper chambers (the atria) and two lower ones (the ventricles), according to the National Institutes of Health. The right atrium and right ventricle together make up the "right heart," and the left atrium and left ventricle make up the "left heart." A wall of muscle called the septum separates the two sides of the heart.
+
+A double-walled sac called the pericardium encases the heart, which serves to protect the heart and anchor it inside the chest. Between the outer layer, the parietal pericardium, and the inner layer, the serous pericardium, runs pericardial fluid, which lubricates the heart during contractions and movements of the lungs and diaphragm.
+
+The heart's outer wall consists of three layers. The outermost wall layer, or epicardium, is the inner wall of the pericardium.  The middle layer, or myocardium, contains the muscle that contracts. The inner layer, or endocardium, is the lining that contacts the blood.
+
+The tricuspid valve and the mitral valve make up the atrioventricular (AV) valves, which connect the atria and the ventricles. The pulmonary semi-lunar valve separates the right ventricle from the pulmonary artery, and the aortic valve separates the left ventricle from the aorta. The heartstrings, or chordae tendinae, anchor the valves to heart muscles.
+
+The sinoatrial node produces the electrical pulses that drive heart contractions.
+                </div>
+            </div>
+           
+        </div>
+        <br>
+        <div class="box">
+            <a class="button" href="#popup3">Diagonosis</a>
+        </div>
+        
+        <div id="popup3" class="overlay">
+            <div class="popup">
+                <h2>Diagonosis</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                   Heart sounds
+                   Typically, healthy hearts have only two audible heart sounds, called S1 and S2. The first heart sound S1, is the sound created by the closing of the atrioventricular valves during ventricular contraction and is normally described as "lub". The second heart sound, S2, is the sound of the semilunar valves closing during ventricular diastole and is described as "dub".[7] Each sound consists of two components, reflecting the slight difference in time as the two valves close.[70] S2 may split into two distinct sounds, either as a result of inspiration or different valvular or cardiac problems.[70] Additional heart sounds may also be present and these give rise to gallop rhythms. A third heart sound, S3 usually indicates an increase in ventricular blood volume. A fourth heart sound S4 is referred to as an atrial gallop and is produced by the sound of blood being forced into a stiff ventricle. The combined presence of S3 and S4 give a quadruple gallop.[7]
+
+                   Heart murmurs are abnormal heart sounds which can be either related to disease or benign, and there are several kinds.[71] There are normally two heart sounds, and abnormal heart sounds can either be extra sounds, or "murmurs" related to the flow of blood between the sounds. Murmurs are graded by volume, from 1 (the quietest), to 6 (the loudest), and evaluated by their relationship to the heart sounds, position in the cardiac cycle, and additional features such as their radiation to other sites, changes with a person's position, the frequency of the sound as determined by the side of the stethoscope by which they are heard, and site at which they are heard loudest.[71] Murmurs may be caused by damaged heart valves, congenital heart disease such as ventricular septal defects, or may be heard in normal hearts. A different type of sound, a pericardial friction rub can be heard in cases of pericarditis where the inflamed membranes can rub together.
+                   
+                   Blood tests
+                   Blood tests play an important role in the diagnosis and treatment of many cardiovascular conditions.
+                   
+                   Troponin is a sensitive biomarker for a heart with insufficient blood supply. It is released 4–6 hours after injury, and usually peaks at about 12–24 hours.[41] Two tests of troponin are often taken—one at the time of initial presentation, and another within 3–6 hours,[72] with either a high level or a significant rise being diagnostic. A test for brain natriuretic peptide (BNP) can be used to evaluate for the presence of heart failure, and rises when there is increased demand on the left ventricle. These tests are considered biomarkers because they are highly specific for cardiac disease.[73] Testing for the MB form of creatine kinase provides information about the heart's blood supply, but is used less frequently because it is less specific and sensitive.[74]
+                   
+                   Other blood tests are often taken to help understand a person's general health and risk factors that may contribute to heart disease. These often include a full blood count investigating for anaemia, and basic metabolic panel that may reveal any disturbances in electrolytes. A coagulation screen is often required to ensure that the right level of anticoagulation is given. Fasting lipids and fasting blood glucose (or an HbA1c level) are often ordered to evaluate a person's cholesterol and diabetes status, respectively
+                </div>
+            </div>
+           
+        </div>\
+        <br>
+        <div class="box">
+            <a class="button" href="#popup4">Heart Model</a>
+        </div>
+        <div id="popup4" class="overlay">
+            <div class="popup">
+                <h2>Heart Model</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <iframe src="https://go.echoar.xyz/ANKN"
+                    allow="camera *">
+            </iframe>
+                </div>
+            </div>
+           <br>
+        </div>
+        <br>
+        <div class="box">
+            <a class="button" href="#popup5">Experience in Real Life</a>
+        </div>
+        <div id="popup5" class="overlay">
+            <div class="popup">
+                <h2>Scan QR code</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <img src="query.png">
+                </div>
+            </div>
+           
+        </div>
+
+    </body>
+</html>
